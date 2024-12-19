@@ -1,7 +1,6 @@
-package ttg.traning.week2.GradingStudents;
+package ttg.traning.week2.gradingStudents;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**

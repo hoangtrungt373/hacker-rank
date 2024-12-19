@@ -1,4 +1,4 @@
-package ttg.traning.week2.LoneLyInteger;
+package ttg.traning.week2.loneLyInteger;
 
 import java.util.HashMap;
 import java.util.HashSet;

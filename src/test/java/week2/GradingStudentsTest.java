@@ -11,8 +11,7 @@ import com.tngtech.java.junit.dataprovider.DataProvider;
 import com.tngtech.java.junit.dataprovider.DataProviderRunner;
 import com.tngtech.java.junit.dataprovider.UseDataProvider;
 
-import ttg.traning.week2.GradingStudents.GradingStudents;
-import ttg.traning.week2.LoneLyInteger.LonelyInteger;
+import ttg.traning.week2.gradingStudents.GradingStudents;
 
 /**
  *
