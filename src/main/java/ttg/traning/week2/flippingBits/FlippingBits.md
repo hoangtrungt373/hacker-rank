@@ -10,7 +10,7 @@ and doing the flipping we get _11111111111111111111111111111110_ which in turn i
 
 ## Function Description
 
-**flippingBits ** has the following parameter(s):
+**flippingBits** has the following parameter(s):
 
 * int n: an integer
 

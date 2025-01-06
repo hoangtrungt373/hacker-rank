@@ -44,7 +44,7 @@ public class CountingSortTest {
 
     @Test
     @UseDataProvider("provideDataForTestCountingSort")
-    public void testDiagonalDifference(List<Integer> inputs, List<Integer> expectedOutputs) {
+    public void testCountingSort(List<Integer> inputs, List<Integer> expectedOutputs) {
         List<Integer> actualOutputs = CountingSort.process(inputs);
         Assert.assertTrue(CollectionUtils.isEqualCollection(expectedOutputs, actualOutputs));
     }
