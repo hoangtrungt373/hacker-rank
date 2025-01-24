@@ -1,5 +1,6 @@
 package week1;
 
+import java.util.Arrays;
 import java.util.List;
 
 import org.junit.Assert;
@@ -10,6 +11,7 @@ import com.tngtech.java.junit.dataprovider.DataProvider;
 import com.tngtech.java.junit.dataprovider.DataProviderRunner;
 import com.tngtech.java.junit.dataprovider.UseDataProvider;
 
+import ttg.traning.week1.divisibleSumPairs.DivisibleSumPairs;
 import ttg.traning.week2.loneLyInteger.LonelyInteger;
 
 /**
@@ -20,17 +22,22 @@ import ttg.traning.week2.loneLyInteger.LonelyInteger;
 public class DivisibleSumPairsTest {
 
     @DataProvider
-    public static Object[][] provideDataForTestLonelyInteger() {
+    public static Object[][] provideDataForTestDivisibleSumPairs() {
+
+        List<Integer> arr = Arrays.asList(1, 3, 2, 6, 1, 2 );
+        int k = 3;
+        int count = 5;
+
         return new Object[][] {
-                {List.of(1, 3, 2, 6, 1, 2), 5, 3},
+                {arr, k, count},
         };
     }
 
 
     @Test
-    @UseDataProvider("provideDataForTestLonelyInteger")
-    public void testLonelyInteger(List<Integer> inputs, Integer expectedOutput) {
-        Integer actualOutput = LonelyInteger.process(inputs);
+    @UseDataProvider("provideDataForTestDivisibleSumPairs")
+    public void testDivisibleSumPairs(List<Integer> arr, int k, int expectedOutput) {
+        int actualOutput = DivisibleSumPairs.process(arr, k);
         Assert.assertEquals(expectedOutput, actualOutput);
     }
 }

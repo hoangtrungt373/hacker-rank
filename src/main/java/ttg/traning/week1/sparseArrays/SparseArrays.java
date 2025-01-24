@@ -11,16 +11,8 @@ import java.util.Map;
  * @author ttg
  */
 public class SparseArrays {
-    public static void main(String[] args) {
 
-        List<String> strings = Arrays.asList("aba", "baba", "aba", "xzxb");
-        List<String> queries = Arrays.asList("aba", "xzxb", "ab");
-
-        List<Integer> countQueInStrs = matchingStrings2(strings, queries);
-        System.out.println(countQueInStrs); // 2 1 0
-    }
-
-    private static List<Integer> matchingStrings1(List<String> strings, List<String> queries ) {
+    public static List<Integer> process(List<String> strings, List<String> queries ) {
 
         List<Integer> countQueInStrs = new ArrayList<>();
 
@@ -33,7 +25,7 @@ public class SparseArrays {
         return countQueInStrs;
     }
 
-    private static List<Integer> matchingStrings2(List<String> strings, List<String> queries ) {
+    public static List<Integer> process1(List<String> strings, List<String> queries ) {
 
         Map<String, Integer> map = new HashMap<>();
 

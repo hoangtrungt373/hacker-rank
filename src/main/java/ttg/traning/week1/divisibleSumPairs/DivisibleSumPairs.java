@@ -11,15 +11,8 @@ import java.util.Map;
  * @author ttg
  */
 public class DivisibleSumPairs {
-    public static void main(String[] args) {
 
-        List<Integer> ar = Arrays.asList(1, 3, 2, 6, 1, 2 );
-        int k = 3;
-        int count = divisibleSumPairs2(ar.size(),k, ar);
-        System.out.println(count);
-    }
-
-    public static int divisibleSumPairs1(int n, int k, List<Integer> ar) {
+    public static int process(List<Integer> ar, int k) {
         int countDivisible = 0;
         for (int i = 0; i < ar.size(); i++) {
             for (int j = i + 1; j < ar.size(); j++) {
@@ -31,7 +24,7 @@ public class DivisibleSumPairs {
         return countDivisible;
     }
 
-    public static int divisibleSumPairs2(int n, int k, List<Integer> ar) {
+    public static int process1(List<Integer> ar, int k) {
         Map<Integer, Integer> map = new HashMap<>();
         int noOfPair = 0;
 
