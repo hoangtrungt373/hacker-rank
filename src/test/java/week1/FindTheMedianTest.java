@@ -32,7 +32,7 @@ public class FindTheMedianTest {
         double output2 = 3.0;
         return new Object[][] {
                 {input1, output1},
-//                {input2, output2},
+                {input2, output2},
         };
     }
 
