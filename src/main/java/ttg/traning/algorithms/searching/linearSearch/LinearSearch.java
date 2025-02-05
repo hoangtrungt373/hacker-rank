@@ -1,4 +1,4 @@
-package ttg.traning.algorithms.searching;
+package ttg.traning.algorithms.searching.linearSearch;
 
 /**
  *

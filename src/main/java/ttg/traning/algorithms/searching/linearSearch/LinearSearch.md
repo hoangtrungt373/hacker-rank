@@ -1,4 +1,4 @@
-# TimSort
+# LinearSearch
 Linear Search is the simplest searching algorithm. It checks each element one by one until it finds 
 the target value or reaches the end of the list.
 
