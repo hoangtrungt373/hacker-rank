@@ -43,7 +43,7 @@ public class RotateLeftTest {
     @Test
     @UseDataProvider("provideDataForTestRotateLeft")
     public void testRotateLeft(List<Integer> list, int d, List<Integer> expectedOutput) {
-        List<Integer> actualOutput = RotateLeft.process(d, list);
+        List<Integer> actualOutput = RotateLeft.process2(d, list);
         Assert.assertTrue(CollectionUtils.isEqualCollection(expectedOutput, actualOutput));
     }
 }
