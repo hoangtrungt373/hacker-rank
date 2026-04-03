@@ -1,5 +1,6 @@
 package ttg.traning.hackerrank.week4.pickingNumbers;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -9,6 +10,6 @@ import java.util.List;
 public class PickingNumbers {
 
     public static int process(List<Integer> a) {
-
+        return -1;
     }
 }
