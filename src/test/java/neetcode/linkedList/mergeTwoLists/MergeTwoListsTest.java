@@ -1,4 +1,4 @@
-package neetcode.mergeTwoLists;
+package neetcode.linkedList.mergeTwoLists;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -9,7 +9,7 @@ import com.tngtech.java.junit.dataprovider.DataProviderRunner;
 import com.tngtech.java.junit.dataprovider.UseDataProvider;
 
 import ttg.traning.neetcode.dto.ListNode;
-import ttg.traning.neetcode.mergeTwoLists.MergeTwoLists;
+import ttg.traning.neetcode.linkedList.mergeTwoLists.MergeTwoLists;
 
 /**
  * Tests for {@link MergeTwoLists}.

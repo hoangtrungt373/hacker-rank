@@ -1,4 +1,4 @@
-package ttg.traning.neetcode.reverseLinkedList;
+package ttg.traning.neetcode.linkedList.reverseLinkedList;
 
 import ttg.traning.neetcode.dto.ListNode;
 

@@ -1,4 +1,4 @@
-package neetcode.reverseLinkedList;
+package neetcode.linkedList.reverseLinkedList;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -9,7 +9,7 @@ import com.tngtech.java.junit.dataprovider.DataProviderRunner;
 import com.tngtech.java.junit.dataprovider.UseDataProvider;
 
 import ttg.traning.neetcode.dto.ListNode;
-import ttg.traning.neetcode.reverseLinkedList.ReverseLinkedList;
+import ttg.traning.neetcode.linkedList.reverseLinkedList.ReverseLinkedList;
 
 /**
  * Tests for {@link ReverseLinkedList}.
