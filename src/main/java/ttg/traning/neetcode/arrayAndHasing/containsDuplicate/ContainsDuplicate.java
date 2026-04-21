@@ -1,4 +1,4 @@
-package ttg.traning.neetcode.containsDuplicate;
+package ttg.traning.neetcode.arrayAndHasing.containsDuplicate;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package ttg.traning.neetcode.validAnagram;
+package ttg.traning.neetcode.arrayAndHasing.validAnagram;
 
 import java.util.HashMap;
 import java.util.HashSet;

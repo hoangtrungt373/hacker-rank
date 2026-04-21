@@ -1,4 +1,4 @@
-package neetcode.validAnagram;
+package neetcode.arrayAndHasing.validAnagram;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -8,7 +8,7 @@ import com.tngtech.java.junit.dataprovider.DataProvider;
 import com.tngtech.java.junit.dataprovider.DataProviderRunner;
 import com.tngtech.java.junit.dataprovider.UseDataProvider;
 
-import ttg.traning.neetcode.validAnagram.ValidAnagram;
+import ttg.traning.neetcode.arrayAndHasing.validAnagram.ValidAnagram;
 
 /**
  *

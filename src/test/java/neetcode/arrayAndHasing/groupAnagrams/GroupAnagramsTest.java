@@ -1,4 +1,4 @@
-package neetcode.groupAnagrams;
+package neetcode.arrayAndHasing.groupAnagrams;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,7 +13,7 @@ import com.tngtech.java.junit.dataprovider.DataProvider;
 import com.tngtech.java.junit.dataprovider.DataProviderRunner;
 import com.tngtech.java.junit.dataprovider.UseDataProvider;
 
-import ttg.traning.neetcode.groupAnagrams.GroupAnagrams;
+import ttg.traning.neetcode.arrayAndHasing.groupAnagrams.GroupAnagrams;
 
 /**
  *

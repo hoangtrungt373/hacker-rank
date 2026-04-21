@@ -1,4 +1,4 @@
-package neetcode.containsDuplicate;
+package neetcode.arrayAndHasing.containsDuplicate;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -8,7 +8,7 @@ import com.tngtech.java.junit.dataprovider.DataProvider;
 import com.tngtech.java.junit.dataprovider.DataProviderRunner;
 import com.tngtech.java.junit.dataprovider.UseDataProvider;
 
-import ttg.traning.neetcode.containsDuplicate.ContainsDuplicate;
+import ttg.traning.neetcode.arrayAndHasing.containsDuplicate.ContainsDuplicate;
 
 /**
  *

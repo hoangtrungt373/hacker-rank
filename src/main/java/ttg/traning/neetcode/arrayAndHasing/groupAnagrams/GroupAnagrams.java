@@ -1,16 +1,14 @@
-package ttg.traning.neetcode.groupAnagrams;
+package ttg.traning.neetcode.arrayAndHasing.groupAnagrams;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.stream.Collectors;
 
-import ttg.traning.neetcode.validAnagram.ValidAnagram;
+import ttg.traning.neetcode.arrayAndHasing.validAnagram.ValidAnagram;
 
 /**
  *

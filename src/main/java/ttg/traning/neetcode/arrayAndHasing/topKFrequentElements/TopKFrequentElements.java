@@ -1,4 +1,4 @@
-package ttg.traning.neetcode.topKFrequentElements;
+package ttg.traning.neetcode.arrayAndHasing.topKFrequentElements;
 
 import java.util.ArrayList;
 import java.util.Arrays;

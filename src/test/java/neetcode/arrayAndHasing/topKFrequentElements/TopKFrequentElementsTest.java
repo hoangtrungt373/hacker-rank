@@ -1,4 +1,4 @@
-package neetcode.topKFrequentElements;
+package neetcode.arrayAndHasing.topKFrequentElements;
 
 import java.util.Arrays;
 
@@ -10,7 +10,7 @@ import com.tngtech.java.junit.dataprovider.DataProvider;
 import com.tngtech.java.junit.dataprovider.DataProviderRunner;
 import com.tngtech.java.junit.dataprovider.UseDataProvider;
 
-import ttg.traning.neetcode.topKFrequentElements.TopKFrequentElements;
+import ttg.traning.neetcode.arrayAndHasing.topKFrequentElements.TopKFrequentElements;
 
 /**
  *

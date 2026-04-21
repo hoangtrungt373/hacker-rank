@@ -1,9 +1,6 @@
-package neetcode.twoSum;
+package neetcode.arrayAndHasing.twoSum;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.stream.Collectors;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -13,7 +10,7 @@ import com.tngtech.java.junit.dataprovider.DataProvider;
 import com.tngtech.java.junit.dataprovider.DataProviderRunner;
 import com.tngtech.java.junit.dataprovider.UseDataProvider;
 
-import ttg.traning.neetcode.twoSum.TwoSum;
+import ttg.traning.neetcode.arrayAndHasing.twoSum.TwoSum;
 
 /**
  *

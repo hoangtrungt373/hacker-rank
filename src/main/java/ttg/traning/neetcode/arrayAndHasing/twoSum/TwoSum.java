@@ -1,4 +1,4 @@
-package ttg.traning.neetcode.twoSum;
+package ttg.traning.neetcode.arrayAndHasing.twoSum;
 
 import java.util.HashMap;
 import java.util.Map;
